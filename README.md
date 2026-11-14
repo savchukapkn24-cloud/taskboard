@@ -25,7 +25,7 @@
 - [ ] База даних і користувачі
 - [ ] Docker
 - [ ] REST API і тести
-- [ ] Публікація на GitHub Pages
+- [x] Публікація на GitHub Pages
 
 ## Запуск
 Відкрий папку у VS Code, встанови Live Server (Ritwick Dey), натисни правою кнопкою на index.html → Open with Live Server.
@@ -42,4 +42,4 @@ git clone https://github.com/savchukapkn24-cloud/taskboard.git
 [Звіт усіх лабораторних](docs/report.md).
 
 ## Демо
-GitHub Pages ще не опубліковано. Очікувана адреса після налаштування: https://savchukapkn24-cloud.github.io/taskboard/
+[Відкрити TaskBoard](https://savchukapkn24-cloud.github.io/taskboard/)
