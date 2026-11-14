@@ -1,5 +1,62 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>TaskBoard: дошка завдань</title><link rel="stylesheet" href="style.css"></head>
-<body><header class="site-header"><a class="brand" href="index.html"><img src="images/logo.png" alt="Логотип TaskBoard" width="36" height="36"><span>TaskBoard</span></a><nav class="nav" aria-label="Основна навігація"><a href="index.html">Головна</a><a href="about.html">Про автора</a></nav></header><main class="container"><section class="intro"><h1>Дошка завдань</h1><p>TaskBoard допоможе керувати завданнями команди.</p></section></main><footer class="site-footer"><p>&copy; 2026 Савчук Артем Павлович · КН-3/1 · TaskBoard</p></footer></body>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>TaskBoard: дошка завдань</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="site-header">
+<a class="brand" href="index.html">
+<img src="images/logo.png" alt="Логотип TaskBoard" width="36" height="36">
+<span>TaskBoard</span>
+</a>
+<nav class="nav" aria-label="Основна навігація">
+<a href="index.html">Головна</a>
+<a href="about.html">Про автора</a>
+</nav>
+</header>
+<main class="container">
+<section class="intro">
+<h1>Дошка завдань</h1>
+<p>TaskBoard допоможе записувати справи, ставити пріоритети та відмічати виконане. Це
+навчальний проєкт курсу «Технології створення веб-застосунків».</p>
+</section>
+<section class="card">
+<h2>Нова задача</h2>
+<form id="task-form" class="task-form">
+<div class="form-row">
+<label class="field grow">
+<span>Назва</span>
+<input type="text" id="title" name="title" placeholder="Наприклад: підготувати
+звіт" required maxlength="80">
+</label>
+<label class="field">
+<span>Пріоритет</span>
+<select id="priority" name="priority">
+<option value="low">Низький</option>
+<option value="medium" selected>Середній</option>
+<option value="high">Високий</option>
+</select>
+</label>
+<label class="field">
+<span>Термін</span>
+<input type="date" id="deadline" name="deadline">
+</label>
+</div>
+<label class="field">
+<span>Опис</span>
+<textarea id="description" name="description" rows="3" placeholder="Додаткові деталі
+(необов'язково)"></textarea>
+</label>
+<button type="submit" class="btn">Додати задачу</button>
+<p id="form-message" class="form-message" role="alert"></p>
+</form>
+</section>
+
+</main>
+<footer class="site-footer"><p>&copy; 2026 Савчук Артем Павлович · КН-3/1 · TaskBoard</p></footer>
+
+</body>
 </html>
