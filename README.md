@@ -43,3 +43,15 @@ git clone https://github.com/savchukapkn24-cloud/taskboard.git
 
 ## Демо
 [Відкрити TaskBoard](https://savchukapkn24-cloud.github.io/taskboard/)
+
+## Скріншот
+
+![TaskBoard у браузері](images/screenshot.png)
+
+[Мобільний вигляд, 390px](images/mobile.jpg)
+
+## Перевірки
+
+Перевірено додавання, виконання, видалення та збереження після оновлення у браузері. Обидві сторінки перевірено на ширині 390px без горизонтальної прокрутки.
+
+[Злитий Pull Request #1](https://github.com/savchukapkn24-cloud/taskboard/pull/1). Деталі й невиконані ручні вправи наведено у звіті.
