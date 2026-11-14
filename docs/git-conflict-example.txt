@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="uk"><head><meta charset="UTF-8"><title>TaskBoard</title></head><body>
+<<<<<<< HEAD
+<h1>TaskBoard: керуй завданнями</h1>
+=======
+<h1>Дошка завдань</h1>
+>>>>>>> ukr-title
+<img src="images/logo.png" alt="Логотип TaskBoard" width="200">
+<p>Моя перша сторінка. Тут буде дошка завдань.</p>
+<p>Автор: <strong>Савчук Артем Павлович</strong>, група КН-3/1</p>
+<a href="https://developer.mozilla.org/uk/">Довідник MDN</a>
+<p>TaskBoard допоможе керувати завданнями команди.</p>
+</body></html>
